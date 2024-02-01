@@ -1,4 +1,4 @@
-function rollDice() {
+rollDice() {
     let dice1Divs = document.querySelectorAll(".dice1 div div");
     let dice2Divs = document.querySelectorAll(".dice2 div div");
     let winnerElement = document.querySelector(".winner");
