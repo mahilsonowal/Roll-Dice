@@ -1,4 +1,3 @@
-rollDice() {
     let dice1Divs = document.querySelectorAll(".dice1 div div");
     let dice2Divs = document.querySelectorAll(".dice2 div div");
     let winnerElement = document.querySelector(".winner");
@@ -20,7 +19,6 @@ rollDice() {
     else {
         winnerElement.textContent = "No winner yet!";
     }
-}
 
 function rollSingleDice(div) {
     let totalDiv = div.length; 
